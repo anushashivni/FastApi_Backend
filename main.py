@@ -5,7 +5,7 @@ app =FastAPI()
 
 @app.get('/')
 def home():
-    return ("Hi this home page")
+    return ("Hi this home page ")
 
 
 if __name__=='__main__':
