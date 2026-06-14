@@ -8,7 +8,7 @@ app =FastAPI()
 def home():
     return ("Hi this home page ")
 
-@app.get('/')
+@app.get('/home')
 def homeget():
     return ("Hi this home page  2")
 
