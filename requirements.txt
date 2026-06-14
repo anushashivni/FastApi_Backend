@@ -1,2 +1,2 @@
 fastapi[standard]
-uvicorn == 3.13.7
+uvicorn == 0.40.0
