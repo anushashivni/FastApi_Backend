@@ -8,6 +8,9 @@ app =FastAPI()
 def home():
     return ("Hi this home page ")
 
+@app.get('/')
+def homeget():
+    return ("Hi this home page  2")
 
 if __name__=='__main__':
     port=int(os.getenv("PORT",8080))
